@@ -1,0 +1,22 @@
+.
+├── index.html
+├── package.json
+├── project-structure.txt
+├── public
+│   └── vite.svg
+├── server.js
+├── src
+│   ├── App.css
+│   ├── App.tsx
+│   ├── Card.tsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── entry-client.tsx
+│   ├── entry-server.tsx
+│   ├── index.css
+│   └── vite-env.d.ts
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+3 directories, 16 files

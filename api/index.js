@@ -41,7 +41,7 @@ app.use('*all', async (req, res) => {
 
     /** @type {string} */
     let template
-    /** @type {import('./src/entry-server.ts').render} */
+    /** @type {import('../src/entry-server.tsx').render} */
     let render
     if (!isProduction) {
       // Always read fresh template in development
@@ -102,3 +102,5 @@ app.use('*all', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server started at http://localhost:${port}`)
 })
+
+export default app;
